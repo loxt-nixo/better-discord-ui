@@ -202,7 +202,7 @@ nav[class*="guilds_"] {
     }
 }
 
-.visual-refresh section.panels_c48ade {
+/* .visual-refresh section.panels_c48ade {
   left: calc(var(--custom-guild-list-width) + var(--space-xs));
   width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
   box-sizing: content-box;
@@ -213,7 +213,20 @@ nav[class*="guilds_"] {
 }
 nav.guilds_c48ade {
   margin-bottom: 0 !important;
+} */
+
+.visual-refresh section.panels__5e434 {
+  margin-left: 65px;
+  margin-right: 0%;
+  width: calc(103% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
+  .actionButtons_e131a9 button {
+    padding: 100;
+  }
 }
+nav.guilds__5e434  {
+  margin-bottom: 0 !important;
+}
+
 .sidebar_c48ade:after {
   display: none;
 }
